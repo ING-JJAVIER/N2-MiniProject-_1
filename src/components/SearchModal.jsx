@@ -29,7 +29,7 @@ export default function SearchModal({ modalClose, dataCards, setFilData }) {
   };
 
   return (
-    <main className='w-11/12 mb-10'>
+    <main className='w-11/12 mb-96'>
       <header>
         <div className='flex items-center justify-between h-10 bg-white'>
           <h2 className='text-black text-[.8rem] font-bold'>Edit your search</h2>
