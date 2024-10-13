@@ -9,7 +9,7 @@ export default function CardItem({ dataCard }) {
   const { superHost, photo, type, beds, rating, title } = dataCard;
 
   return (
-    <div className='mb-9'>
+    <div className=' mb-9'>
       <figure className='overflow-hidden shadow-lg shadow-cyan-800 rounded-2xl'>
         <img
           className='object-cover h-[240px] w-full rounded-2xl'

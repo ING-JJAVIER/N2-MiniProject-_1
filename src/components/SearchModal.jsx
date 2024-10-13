@@ -80,8 +80,8 @@ export default function SearchModal({ modalClose, dataCards, setFilData }) {
         {city && (
           <ul className='dropdown mt-2 '>
             {dataCards.filter(item => item.city.toLowerCase().includes(city.toLowerCase())).map((item, index) => (
-              <button key={index} className=' flex items-center border border-transparent hover:border-b-cyan-600 active:bg-slate-500 px-2 rounded-md mb-2'onClick={() => setCity(item.city)}>
-                <img className='h-4 mr-2' src="/pin.svg" alt="pinmap icon" />
+              <button key={index} className=' flex items-center border border-solid border-transparent hover:border-b-cyan-600 transition ease-in-out duration-1000 active:bg-slate-500 px-2 mb-2 'onClick={() => setCity(item.city)}>
+                <img className=' h-4 mr-2' src="/pin.svg" alt="pinmap icon" />
                 <li> {item.city} </li>
               </button>
             ))}
