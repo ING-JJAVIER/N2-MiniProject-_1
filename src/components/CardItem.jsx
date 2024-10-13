@@ -10,11 +10,11 @@ export default function CardItem({ dataCard }) {
 
   return (
     <div className=' mb-9'>
-      <figure className='overflow-hidden shadow-lg shadow-cyan-800 rounded-2xl'>
+      <figure className='border overflow-hidden shadow-lg shadow-cyan-800 rounded-2xl'>
         <img
-          className='object-cover h-[240px] w-full rounded-2xl'
+          className='transition ease-in delay-1000 object-cover h-[240px] w-full rounded-2xl'
           src={photo}
-          alt=""
+          alt="photo"
         />
       </figure>
 
